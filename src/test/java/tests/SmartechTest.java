@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class SmartechTest {
+public class SmartechTest extends TestBase {
 
         @Test
         @DisplayName("Открытие главной страницы")
